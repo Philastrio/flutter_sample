@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample/src/04/generate.dart';
+import 'package:sample/src/04/09_Padding.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
-      home: GenerateNumber(),
+      home: PaddingTest(),
     );
   }
 }
