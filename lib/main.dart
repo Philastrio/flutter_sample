@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample/src/04/09_Padding.dart';
+import 'package:sample/src/04/20_CircleAvatar.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: PaddingTest(),
+      home: Chapter4Test(),
     );
   }
 }
